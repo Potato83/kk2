@@ -16,7 +16,7 @@ get_header(); ?>
 
 <div class="row">
   <div class="col-sm-2">
-<aside class="sidebar-offcanvas">
+<aside class="sidebar-offcanvas aside-orph">
 <?php
         
     $parent = $post->post_parent;
@@ -47,7 +47,7 @@ get_header(); ?>
     <?php } ?>
 </aside>
 </div>
-<div class="col-sm-10 con-con">
+<div class="col-sm-10 con-con con-orph">
 <?php wp_reset_postdata(); ?>
 <?php get_template_part('content', 'images'); ?>
 <?php while ( have_posts() ) : the_post(); ?>

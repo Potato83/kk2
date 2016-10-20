@@ -81,7 +81,7 @@ echo '<li><a href="'.get_permalink($post->ID).'">'.get_the_title( $post->ID ).'<
 <!-- <div class="sub-container">  -->
 <?php wp_reset_postdata(); ?>
 
-    <div class="col-sm-10 con-con">
+    <div class="col-sm-10 con-con mid">
       <?php get_template_part('content', 'images'); ?>
       <?php while ( have_posts() ) : the_post(); ?>
                     
