@@ -3,6 +3,9 @@
 Template Name: Orphan Children 
  */
 get_header(); ?>
+<button type="button" class="pull-left btn btn-default visible-xs" id="sidebar-toggle-orph" data-toggle="offcanvas" aria-expanded="false" aria-controls="navbar">
+  <i class="fa fa-navicon"></i>
+</button>
 <div class="padder"></div>
 <!-- <div class="padder"></div> -->
 
@@ -10,11 +13,9 @@ get_header(); ?>
 
 
 <!-- <h3>Grand Children</h3> -->
-<button type="button" class="pull-left btn btn-default visible-xs" id="sidebar-toggle" data-toggle="offcanvas" aria-expanded="false" aria-controls="navbar">
-  <i class="fa fa-navicon"></i>
-</button>
+
 <div class="row">
-  <div class="col-md-2">
+  <div class="col-sm-2">
 <aside class="sidebar-offcanvas">
 <?php
         
@@ -46,7 +47,7 @@ get_header(); ?>
     <?php } ?>
 </aside>
 </div>
-<div class="col-md-10 con-con">
+<div class="col-sm-10 con-con">
 <?php wp_reset_postdata(); ?>
 <?php get_template_part('content', 'images'); ?>
 <?php while ( have_posts() ) : the_post(); ?>

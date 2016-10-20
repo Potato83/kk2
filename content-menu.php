@@ -1,6 +1,6 @@
 <!-- NAVBAR
     ================================================== -->
-    
+  <div class="loggie"></div> 
   <div class="navbar-wrapper">
 
     <nav class="navbar" role="navigation"> 

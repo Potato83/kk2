@@ -4,7 +4,9 @@ Template Name: Grand Children
  */
 get_header(); ?>
 <!-- <div class="padder"></div> -->
-
+<button type="button" class="pull-left btn btn-default visible-xs" id="sidebar-toggle-grand" data-toggle="offcanvas" aria-expanded="false" aria-controls="navbar">
+  <i class="fa fa-navicon"></i>
+</button>
 
 <?php wp_reset_postdata(); ?>
 
@@ -38,11 +40,9 @@ get_header(); ?>
     <?php } ?>
 
 <!-- <h3>Grand Children</h3> -->
-<button type="button" class="pull-left btn btn-default visible-xs" id="sidebar-toggle" data-toggle="offcanvas" aria-expanded="false" aria-controls="navbar">
-  <i class="fa fa-navicon"></i>
-</button>
+
 <div class="row">
-  <div class="col-md-2">
+  <div class="col-sm-2">
 <aside class="sidebar-offcanvas">
 <?php
         
@@ -73,7 +73,7 @@ get_header(); ?>
 <!-- <div class="sub-container"> -->
 <?php wp_reset_postdata(); ?>
 
-<div class="col-md-10 con-con">
+<div class="col-sm-10 con-con">
 
     
 

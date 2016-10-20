@@ -10,7 +10,7 @@
 </aside>
 <!-- <div class="sub-container-home"> -->
 <div class="row">
-	<div class="col-md-8 col-md-offset-2 con-con">
+	<div class="col-sm-8 col-sm-offset-2 con-con">
 
 	<?php // Display blog posts on any page @ http://m0n.co/l
 	$temp = $wp_query; $wp_query= null;
