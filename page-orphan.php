@@ -3,8 +3,10 @@
 Template Name: Orphan Children 
  */
 get_header(); ?>
-<button type="button" class="pull-left btn btn-default visible-xs" id="sidebar-toggle-orph" data-toggle="offcanvas" aria-expanded="false" aria-controls="navbar">
-  <i class="fa fa-navicon"></i>
+<button type="button" class="pull-left navbar-toggle visible-xs" id="sidebar-toggle-orph" data-toggle="offcanvas" aria-expanded="false" aria-controls="navbar">
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
 </button>
 <div class="padder"></div>
 <!-- <div class="padder"></div> -->

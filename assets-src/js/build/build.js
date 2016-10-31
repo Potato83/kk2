@@ -2381,6 +2381,13 @@ $(function() {
 	$('#sidebar-toggle').click(function () {
 		//alert('yas');
 	});
+
+	// var bg = $(".tasty");
+	// $(window).resize("resizeBackground");
+	// function resizeBackground() {
+	//     bg.height($(window).height() +60);
+	// }
+	// resizeBackground();
 		
 });
 

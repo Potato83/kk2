@@ -4,8 +4,10 @@ Template Name: Grand Children
  */
 get_header(); ?>
 <!-- <div class="padder"></div> -->
-<button type="button" class="pull-left btn btn-default visible-xs" id="sidebar-toggle-grand" data-toggle="offcanvas" aria-expanded="false" aria-controls="navbar">
-  <i class="fa fa-navicon"></i>
+<button type="button" class="pull-left navbar-toggle visible-xs" id="sidebar-toggle-grand" data-toggle="offcanvas" aria-expanded="false" aria-controls="navbar">
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
 </button>
 
 <?php wp_reset_postdata(); ?>

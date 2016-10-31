@@ -6,8 +6,10 @@ get_header(); ?>
 <!-- <div class="padder"></div> -->
 
 <!-- <h1>Middle Children</h1> -->
-<button type="button" class="pull-left btn btn-default visible-xs" id="sidebar-toggle" data-toggle="offcanvas" aria-expanded="false" aria-controls="navbar">
-  <i class="fa fa-navicon"></i>
+<button type="button" class="pull-left visible-xs navbar-toggle side" id="sidebar-toggle" data-toggle="offcanvas" aria-expanded="false" aria-controls="navbar">
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
 </button>
 
 <?php
