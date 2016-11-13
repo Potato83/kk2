@@ -49,11 +49,20 @@ get_header(); ?>
 <!-- <div class="home-lo"> -->
 <footer class="homefoot">
 <p class="center">
-	<a href="http://www.facebook.com/kathy.kennedy.123276" class="badge social facebook" target="_blank">
+	<a href="http://www.facebook.com/kathy.kennedy.123276" class="badge social" target="_blank">
 		<i class="fa fa-facebook"></i>
 	</a>
+	<a href="https://soundcloud.com/kathykennedy" class="badge social" target="_blank">
+		<i class="fa fa-soundcloud"></i>
+	</a>
+	<a href="https://www.instagram.com/kathykennedy.ca/" class="badge social" target="_blank">
+		<i class="fa fa-instagram"></i>
+	</a>
+	<a href="https://www.youtube.com/channel/UCJ1mrtdieT3iM4Vc_3B5FiA" class="badge social" target="_blank">
+		<i class="fa fa-youtube"></i>
+	</a>
 </p> 
-<p class="center">Subscribe to my newsletter</p>
+<p class="center" id="subscribe">Subscribe to my newsletter</p>
 <p class="center">
 <?php while ( have_posts() ) : the_post(); ?>
 						

@@ -24,6 +24,9 @@ $(function() {
 	//     bg.height($(window).height() +60);
 	// }
 	// resizeBackground();
+	$('#subscribe').click(function(){
+		$('.reveal').toggleClass('conceal');
+	});
 		
 });
 

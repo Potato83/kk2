@@ -43,7 +43,7 @@ get_header(); ?>
          </ul>
      </div>
     <?php } else{ ?>
-    <div class="padder"></div>	
+    <!-- <div class="padder"></div>	 -->
     <?php } ?>
 
 

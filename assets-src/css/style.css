@@ -81,23 +81,29 @@ hr{
 }
 
 .badge.social {  
-  font-size: 14px;
-  height: 30px;
-  width: 30px;
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
   text-align: center;
-  line-height: 32px;
+  line-height: 42px;
   padding: 0;
   color: white !important;
+  background: rgba(25,25,25,0.2);
+  border-radius: 5px;
 }
 
-.badge.social.facebook{
+.badge.social:hover{
+	background: rgba(25,25,25,0.5);
+}
+
+/*.badge.social.facebook{
 	background: #3b5998;
 }
 
 .badge.social.facebook:hover{
 	color: white;
 	background: #2a4887;
-}
+}*/
 
 a:hover{
 	text-decoration: none;
@@ -231,6 +237,7 @@ li.grandpa{
 	  display:block;
 	  content: '';
 	  border-bottom: solid 3px rgba(225,225,225,0.5); 
+	  border-bottom: solid 3px rgba(77, 145, 234, 0.4);
 	  /*border-bottom: solid 3px red;*/
 	}
 }
@@ -245,6 +252,7 @@ li.grandpa{
 	  display:block;
 	  content: '';
 	  border-bottom: solid 3px rgba(200,200,200,0.5); 
+	  border-bottom: solid 3px rgba(77, 145, 234, 0.4);
 	  transform: scaleX(1); 
 	}
 
@@ -259,7 +267,8 @@ li.grandpa{
 	 {
 	  display:block;
 	  content: '';
-	  border-bottom: solid 3px rgba(225,225,225,0.6);  
+	  border-bottom: solid 3px rgba(225,225,225,0.6); 
+	  border-bottom: solid 3px rgba(77, 145, 234, 0.2); 
 	  transform: scaleX(0);  
 	  transition: transform 250ms ease-in-out;
 	}
@@ -659,7 +668,7 @@ a.big-head{
 	/*background: red;*/
 	/*float: left;*/
 	font-family: 'Raleway', sans-serif;
-	font-family: 'Dancing Script', cursive;
+	/*font-family: 'Dancing Script', cursive;*/
 	width: 100%;
 	height: 100%;
 }
@@ -843,6 +852,18 @@ ul.shop{
 		font-size: 13px !important;
 		margin-left: -10px;
 	}
+	a.big-head{
+		/*color: yellow;*/
+		left: 8px;
+		top: 0px;
+		font-size: 50px;
+	}
+	.middle-cat{
+		/*background: red;*/
+		/*height: 500px;*/
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
 }
 
 @media (max-width: 767px){
@@ -935,7 +956,7 @@ ul.shop{
 
 @media (max-width: 400px){
 	a.big-head{
-		font-size: 30px;
+		font-size: 38px;
 		left: -10px;
 		top: -40px;
 	}
@@ -951,6 +972,12 @@ ul.shop{
 	#sidebar-toggle-grand,
 	#sidebar-toggle-orph{
 		left: 0;
+	}
+}
+
+@media (max-width: 360px){
+	a.big-head{
+		font-size: 30px;
 	}
 }
 
@@ -1000,23 +1027,25 @@ input{
 body{
 	/*background: url('https://images.unsplash.com/photo-1453738773917-9c3eff1db985') no-repeat;*/
 	/*background: url('../img/sing.jpeg') no-repeat;*/
-	background: url('../img/kkbg2.png') no-repeat;
+	background: url('../img/waterx.png') no-repeat;
 	/*background: red;*/
 	background-size: cover;
 	background-position: fixed;
 }
 p, a, h1, h2, h3, h4, h5, h6, li, figcaption{
 	color: #f2f3f4;
-	/*color: #d14242;*/
+	color: #000;
 }
 
 .bottom-cat > li.current_page_item > a{
 	color: #b5bdc9;
+	color: #1671cc;
 }
 
 a:hover{
 	color: #b5bdc9;
 	color: #dcdcdc;
+	color: #3472af;
 }
 
 a.big-head:hover{
@@ -1043,6 +1072,7 @@ a.big-head:hover{
 	aside.sidebar-offcanvas.active,
 	button.visible-xs{
 		background: rgba(126, 114, 102,0.99);
+		background: #898285;
 	}
 	button.visible-xs{
 		border: none;
@@ -1065,3 +1095,19 @@ a.big-head:hover{
 	outline: none;
 }
 
+a.clearly{
+	color: #6C76C9;
+}
+
+.moreleft{
+	margin-left: -40px !important;
+	padding-left: 0 !important;
+}
+
+.conceal{
+	opacity: 0;
+}
+
+#subscribe{
+	cursor: pointer;
+}

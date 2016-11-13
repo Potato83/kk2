@@ -6,17 +6,18 @@
  *
  */
 ?><!DOCTYPE html>
+<!-- Site by Sam Vipond | sammypotato.com -->
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name="google-site-verification" content="b1X07yJ7YxNHJEVB9YBLW2Qe6wPzzHn0iz5ThHbPrmA" />
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/css/style.min.css" />
 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/css/font-awesome/css/font-awesome.min.css" />
 <link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 
 <?php wp_head(); ?>
